@@ -4,6 +4,7 @@
 name: Arquillian Integration Tests
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
